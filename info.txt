@@ -1,0 +1,28 @@
+http://jessefreeman.com/dev-techniques/automating-typescript-with-node-and-grunt/
+
+
+Install nodejs npm
+
+http://wil.boayue.com/blog/2013/06/14/using-npm-behind-a-proxy/
+npm config set proxy http://127.0.0.1:3128
+npm config set https-proxy http://127.0.0.1:3128
+
+npm install grunt --save-dev
+npm install typescript --save-dev
+npm install grunt-typescript --save-dev
+npm install grunt-contrib-watch --save-dev
+
+git config --global url."https://".insteadOf git://
+sudo -E npm install tsd -g
+
+tsd init
+
+sudo tsd query knockout --info  --action install
+
+
+play
+
+Typescript Eclipse
+http://axmor.bitbucket.org/typecs/stable/update-site/
+
+
