@@ -3,6 +3,5 @@
 * Play
 * TypeScript
 * Knockout
-
 * Scala-IDE
 * Grunt
